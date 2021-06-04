@@ -4,18 +4,18 @@ from mysql.connector import connect, Error
 # Set connections to compare
 db_connections = [
     {
-        "dbkeyn": "NAME OF YOUR FIRST DB",
-        "dbhost": "localhost",
-        "dbuser": "root",
-        "dbpass": "123",
-        "dbname": "test1"
+        "dbkeyn": "NAME OF YOUR FIRST DATABASE",
+        "dbhost": "YOUR FIRST HOST",
+        "dbuser": "YOUR FIRST USER",
+        "dbpass": "YOUR FIRST PASSWORD",
+        "dbname": "YOUR FIRST DATABASE NAME"
     },
     {
-        "dbkeyn": "NAME OF YOUR SECOND DB",
-        "dbhost": "localhost",
-        "dbuser": "root",
-        "dbpass": "123",
-        "dbname": "test2"
+        "dbkeyn": "NAME OF YOUR SECOND DATABASE",
+        "dbhost": "YOUR SECOND HOST",
+        "dbuser": "YOUR SECOND USER",
+        "dbpass": "YOUR SECOND PASSWORD",
+        "dbname": "YOUR SECOND DATABASE NAME"
     }
 ]
 
