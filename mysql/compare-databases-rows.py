@@ -1,3 +1,5 @@
+# pip install mysql-connector-python
+
 import json
 from mysql.connector import connect, Error
 
